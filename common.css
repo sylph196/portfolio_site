@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Merriweather:900');
 
 body { width: 100vw; height: 100vh; position: relative; }
 div#work {
@@ -26,7 +26,7 @@ div.text span{
 	width: 100%;
 	height: auto;
 	float: left;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Inconsolata', monospace;
 	line-height: 150%;
 }
 .text span.name{
@@ -40,5 +40,29 @@ div.text span{
 }
 
 .design{
-	background: #1DE9F0;
+	background: #63FFC6;
+	background-image: url(design-header.jpg);
+}
+.design span.titleD{
+	float: left;
+	font-family: 'Merriweather', serif;
+	font-size: 150px;
+	letter-spacing: 0.3em;
+	color: #FFFFFF;
+	margin: 117px 95px;
+	
+}
+.video{
+	background: #2F2C2C;
+	background-image: url(rampagefilming.jpg);
+	
+}
+.video span.titleV{
+	float: left;
+	font-family: 'Merriweather', serif;
+	font-size: 150px;
+	letter-spacing: 0.55em;
+	color: #63FFC6;
+	text-shadow: 0px 0px 5px #63FFC6;
+	margin: 117px 95px;
 }
