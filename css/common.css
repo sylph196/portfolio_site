@@ -25,7 +25,6 @@ div#work span{
 	text-align: center;
 	line-height: 50vh;
 	letter-spacing: 0.3em;
-	mix-blend-mode:exclusion;
 }
 
 div.text{
@@ -45,20 +44,45 @@ div.text span{
 .text span.detail{margin-top: 60px;}
 
 .design{
-	background: #63FFC6;
-	background-image: url(../image/design-header.jpg);
+	background: #000 url(../image/design-header.jpg) no-repeat 0 0 / cover;
+	opacity: 1;
+	transition: all 1s;
+	animation-timing-function: ease-in-out;
+}
+.design:hover{
+	opacity: 0.75;
+	transition: all 1s;
+	animation-timing-function: ease-in-out;
 }
 .design span.titleD{
+	mix-blend-mode:exclusion;
 	color: #FFFFFF;
-	
+	transition: all 1s;
+	animation-timing-function: ease-in-out;
 }
+.design:hover span{
+	color:#555;
+	transition: all 1s;
+	animation-timing-function: ease-in-out;
+}
+
 .video{
-	background: #2F2C2C;
-	background-image: url(../image/rampagefilming.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	
+	background: #2F2C2C url(../image/rampagefilming.jpg) no-repeat 0 0 / cover;
 }
 .video span.titleV{
 	color: #63FFC6;
+}
+.q_menu {
+	width: 50px;
+	height : 202px;
+	position: fixed;
+	top : -160px;
+	right : 10px;
+	background: url(../image/quickmenu.svg) no-repeat;
+	transition: all 1s;
+}
+
+.q_menu:hover{
+	top: -50px;
+	transition: all 1s;
 }
