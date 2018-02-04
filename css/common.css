@@ -6,15 +6,26 @@ div#work {
 	width:calc(100% / 3 * 2);
 	height: 100%;
 	float: left;
+	z-index: 0;
 }
 div#profile {
 	width:calc(100% / 3);
 	height: 100%;
 	float: left;
+	z-index: 99;
 }
 div#work div{
 	width:100%;
 	height:50%;
+	text-align: center;
+}
+div#work span{
+	font-family: 'Merriweather', serif;
+	font-size: 10vh;
+	text-align: center;
+	line-height: 50vh;
+	letter-spacing: 0.3em;
+	mix-blend-mode:exclusion;
 }
 
 div.text{
@@ -29,40 +40,25 @@ div.text span{
 	font-family: 'Inconsolata', monospace;
 	line-height: 150%;
 }
-.text span.name{
-	font-weight: bold;
-}
-.text span.job{
-	margin-top: 20px;
-}
-.text span.detail{
-	margin-top: 60px;
-}
+.text span.name{font-weight: bold;}
+.text span.job{margin-top: 20px;}
+.text span.detail{margin-top: 60px;}
 
 .design{
 	background: #63FFC6;
-	background-image: url(design-header.jpg);
+	background-image: url(../image/design-header.jpg);
 }
 .design span.titleD{
-	float: left;
-	font-family: 'Merriweather', serif;
-	font-size: 150px;
-	letter-spacing: 0.3em;
 	color: #FFFFFF;
-	margin: 117px 95px;
 	
 }
 .video{
 	background: #2F2C2C;
-	background-image: url(rampagefilming.jpg);
+	background-image: url(../image/rampagefilming.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	
 }
 .video span.titleV{
-	float: left;
-	font-family: 'Merriweather', serif;
-	font-size: 150px;
-	letter-spacing: 0.55em;
 	color: #63FFC6;
-	text-shadow: 0px 0px 5px #63FFC6;
-	margin: 117px 95px;
 }
