@@ -6,7 +6,7 @@ div#work {
 	width:calc(100% / 3 * 2);
 	height: 100%;
 	float: left;
-	z-index: 0;
+	z-index: 1;
 }
 div#profile {
 	width:calc(100% / 3);
